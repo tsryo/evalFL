@@ -17,7 +17,6 @@ source("src/fl_orchestrator.R")
 RUN_CODE = T # nothing will be ran if this is False
 
 INPUT_DF_PATH = NULL # if no input dataframe file is given, synthetic data will be used instead  #  "../data/df_new.RData"
-INPUT_DF_PATH = "../data/df_new.RData" # if no input dataframe file is given, synthetic data will be used instead  #  "../data/df_new.RData"
 
 VALIDATION_STRAT = c("LCOA", "CV")[2]
 
